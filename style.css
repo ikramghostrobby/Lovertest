@@ -1,0 +1,86 @@
+/* Efek Neon Glow */
+
+body{
+  background:#0f0f0f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:Arial;
+}
+
+.box{
+  background:#111;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+
+  /* Neon Glow */
+  box-shadow:
+    0 0 10px #ff4da6,
+    0 0 20px #ff4da6,
+    0 0 40px #ff4da6,
+    0 0 80px #ff4da6;
+}
+
+h1{
+  color:#fff;
+
+  /* Glow Text */
+  text-shadow:
+    0 0 5px #ff4da6,
+    0 0 10px #ff4da6,
+    0 0 20px #ff4da6,
+    0 0 40px #ff4da6;
+}
+
+input{
+  width:90%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:10px;
+  outline:none;
+  background:#222;
+  color:white;
+
+  box-shadow:
+    0 0 5px #ff4da6,
+    0 0 10px #ff4da6;
+}
+
+button{
+  background:#ff4da6;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+
+  box-shadow:
+    0 0 5px #ff4da6,
+    0 0 15px #ff4da6,
+    0 0 30px #ff4da6;
+
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.1);
+
+  box-shadow:
+    0 0 10px #ff4da6,
+    0 0 25px #ff4da6,
+    0 0 50px #ff4da6;
+}
+
+#hasil{
+  margin-top:20px;
+  color:white;
+  font-size:22px;
+
+  text-shadow:
+    0 0 5px #ff4da6,
+    0 0 10px #ff4da6;
+}
