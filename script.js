@@ -29,7 +29,7 @@ function cekCinta() {
     hasil.innerHTML =
       `${nama1} ❤️ ${nama2}<br>
       ${persen}%<br>
-      ${pesan}`;
+      ${pesan}&<100>`;
 
   }, 2000); // delay 2 detik
 }
